@@ -1,0 +1,50 @@
+.project-holder{
+    background-color: #1d1d1d;
+    height: 350px;
+    width: 300px;
+    float: left;
+    border-radius: 15px;
+    margin-inline: 30px;
+    margin-block: 50px;
+    box-shadow: 0px 0px 10px #000;
+}
+
+.project-name{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.image-holder{
+    height: 100%;
+}
+
+.image-holder img{
+    height: 100%;
+    width: 100%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.image-holder:hover img{
+    animation: zoomIn .8s;
+    animation-direction: inherit;
+}
+
+@keyframes zoomIn{
+    from{
+        transform: scale(1);
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+    50%{
+        transform: scale(1.1);
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    to{
+        transform: scale(1);
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+}
