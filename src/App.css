@@ -3,3 +3,26 @@ body{
     background-color: #121212;
     color: #eeeeee;
 }
+
+button{
+    background-color: #bb86fc;
+    color: #040207;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.projects-holder{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 50px;
+}
