@@ -1,0 +1,42 @@
+.navigation-element{    
+    border-color: #bb86fc;
+    cursor: pointer;
+    animation-name: scaleDown;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+    border: #bb86fc solid 3px;
+    border-radius: 10px;
+}
+
+.navigation-element h2{
+    padding-inline: 10px;
+    margin-block: 4px;
+}
+
+.navigation-element:hover{
+    animation-name: scale;
+    animation-duration: 0.2s;
+    animation-fill-mode: both;
+}
+
+@keyframes scale{
+    0%{
+        transform: scale(1);
+        background-color: transparent;
+    }
+    100%{
+        transform: scale(1.07);
+        background-color: #bb86fc;
+    }
+}
+
+@keyframes scaleDown{
+    0%{
+        transform: scale(1.07);
+        background-color: #bb86fc;
+    }
+    100%{
+        transform: scale(1);
+        background-color: transparent;
+    }
+}

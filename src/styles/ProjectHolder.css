@@ -6,6 +6,18 @@
     margin-inline: 30px;
     margin-block: 50px;
     box-shadow: 0px 0px 10px #000;
+    animation: appear 1s ease-out;
+}
+
+@keyframes appear{
+    0%{
+        opacity: 0;
+        transform: translate(0, -100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0, 0);
+    }
 }
 
 .project-name{
@@ -17,6 +29,7 @@
 .image-holder{
     height: 250px;
     width: 315px;
+    cursor: pointer;
 }
 
 .image-holder img{
@@ -24,25 +37,36 @@
     width: 100%;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    animation-name: zoomOut;
+    animation-duration: .4s;
+    animation-fill-mode: both;
 }
 
 .image-holder:hover img{
-    animation: zoomIn .8s;
-    animation-direction: inherit;
+    animation: zoomIn .4s;
+    animation-fill-mode: both;
 }
 
 @keyframes zoomIn{
-    from{
+    0%{
         transform: scale(1);
         border-top-left-radius: 0px;
         border-top-right-radius: 0px;
     }
-    50%{
+    100%{
         transform: scale(1.1);
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
     }
-    to{
+}
+
+@keyframes zoomOut{
+    0%{
+        transform: scale(1.1);
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    100%{
         transform: scale(1);
         border-top-left-radius: 0px;
         border-top-right-radius: 0px;
