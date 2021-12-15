@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="203.38882mm"
+   height="152.54164mm"
+   viewBox="0 0 203.38882 152.54164"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="iconmonstr-email-2.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.36703143"
+     inkscape:cx="-178.45883"
+     inkscape:cy="399.14838"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-5.1150456,-78.717055)">
+    <path
+       d="M 5.1150456,78.717055 V 231.25869 H 208.50387 V 78.717055 Z M 61.24204,145.91161 22.064217,194.31815 V 114.16597 Z M 26.148979,95.665906 H 187.46162 l -80.65216,65.364054 z m 48.254074,60.915124 32.406407,26.26247 32.45766,-26.30507 47.55903,57.77109 H 27.682875 Z M 152.43646,145.869 191.55502,114.16597 v 79.2198 z"
+       id="path824"
+       style="fill:#eeeeee;fill-opacity:1;stroke-width:8.47452" />
+  </g>
+</svg>
