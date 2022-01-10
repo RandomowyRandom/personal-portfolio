@@ -1,0 +1,23 @@
+.welcome-text {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.main-page {
+  animation: appear 1s both;
+}
+
+.about-me {
+  margin-bottom: 80px;
+}
+
+@keyframes appear {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

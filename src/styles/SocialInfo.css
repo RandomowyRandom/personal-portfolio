@@ -1,25 +1,24 @@
-.social-info{
-    background-color: #1d1d1d;
-    height: 100px;
-    margin-block: 30px;
-    width: fit-content;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px #000;
-    display: flex;
-    align-items: center;
+.social-info {
+  background-color: #1d1d1d;
+  height: 100px;
+  margin-block: 30px;
+  width: fit-content;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #000;
+  display: flex;
+  align-items: center;
 }
 
-.social-info button{
-    margin-right: 30px;
+.social-info button {
+  margin-right: 30px;
 }
 
-
-.social-name{
-    margin-right: 80px;
+.social-name {
+  margin-right: 80px;
 }
- 
-.social-info img{
-    height: 80%;
-    margin-block: 10px;
-    margin-inline: 10px;
+
+.social-info img {
+  height: 80%;
+  margin-block: 10px;
+  margin-inline: 10px;
 }
