@@ -9,6 +9,33 @@
 
 .about-me {
   margin-bottom: 80px;
+  width: 50%;
+}
+
+.highlights {
+  width: 50%;
+}
+
+.highlights p {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: left;
+  margin-top: 50px;
+  width: 90%;
+  /* center it */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.highlights img {
+  border-radius: 35px;
+  padding: 20px;
 }
 
 @keyframes appear {
