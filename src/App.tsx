@@ -1,8 +1,6 @@
 import { Component } from "react";
 import BigTitle from "./components/BigTitle";
 import NavigationBar from "./components/NavigationBar";
-import Projects from "./Subpages/Projects";
-import logo from "logo.svg";
 import "./App.css";
 import MainPage from "./Subpages/MainPage";
 

@@ -1,11 +1,12 @@
 import { Component } from "react";
+import { TwitterTimelineEmbed } from "react-twitter-embed";
 import AboutMeQuestion from "../components/AboutMeQuestion";
-import "../styles/MainPage.css";
 import gif1 from "../Screenshots/GIF_1.gif";
 import gif2 from "../Screenshots/GIF_2.gif";
 import gif3 from "../Screenshots/GIF_3.gif";
 import screenshot1 from "../Screenshots/Screenshot_1.png";
 import screenshot2 from "../Screenshots/Screenshot_2.png";
+import "../styles/MainPage.css";
 
 interface IProps {}
 
@@ -77,6 +78,16 @@ class MainPage extends Component<IProps, IState> {
                 look at the rest of the site, it's pretty cool and you might
                 find answers there!"
             ></AboutMeQuestion>
+
+            {this.line}
+
+            <div style={{ width: "70%", margin: "0 auto", paddingTop: "55px" }}>
+              <TwitterTimelineEmbed
+                sourceType="profile"
+                screenName="RedrayDev"
+                options={{ height: 650 }}
+              />
+            </div>
           </div>
           <div className="highlights">
             <h1>Highlighted project</h1>
