@@ -40,7 +40,7 @@ class MainPage extends Component<IProps, IState> {
             {this.line}
             <AboutMeQuestion
               question="Who Am I?"
-              answer="My name is Dominik and I am a 17 years old student passionate
+              answer="My name is Dominik and I am a 18 years old student passionate
                 about game developement and coding in general."
             ></AboutMeQuestion>
 
